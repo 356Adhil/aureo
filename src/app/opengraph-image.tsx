@@ -47,7 +47,7 @@ export default function OpengraphImage() {
           We craft digital experiences that feel refined.
         </div>
         <div style={{ display: "flex", justifyContent: "space-between", fontSize: 22, color: "#cfc9bc" }}>
-          <span>aureo.studio</span>
+          <span>aureodigital.in</span>
           <span>Est. 2026</span>
         </div>
       </div>

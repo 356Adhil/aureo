@@ -30,7 +30,7 @@ export default function ContactPage() {
                   Email
                 </dt>
                 <dd className="mt-2 font-display text-xl">
-                  <a href="mailto:hello@aureo.studio">hello@aureo.studio</a>
+                  <a href="mailto:hello@aureodigital.in">hello@aureodigital.in</a>
                 </dd>
               </div>
               <div>

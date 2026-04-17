@@ -61,7 +61,7 @@ function fire() {
   console.log(
     "%cAureo ✦",
     "background:#f2f2ef;color:#000;padding:4px 10px;border-radius:4px;font-weight:bold",
-    " You found it. Say hi: hello@aureo.studio"
+    " You found it. Say hi: hello@aureodigital.in"
   );
   const host = document.createElement("div");
   host.setAttribute("aria-hidden", "true");

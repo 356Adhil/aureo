@@ -56,7 +56,7 @@ export function Footer() {
                 Connect
               </p>
               <ul className="space-y-2 text-sm">
-                <li><a className="hover:text-[color:var(--color-gold-300)]" href="mailto:hello@aureo.studio">hello@aureo.studio</a></li>
+                <li><a className="hover:text-[color:var(--color-gold-300)]" href="mailto:hello@aureodigital.in">hello@aureodigital.in</a></li>
                 <li><a className="hover:text-[color:var(--color-gold-300)]" href="#">Instagram</a></li>
                 <li><a className="hover:text-[color:var(--color-gold-300)]" href="#">LinkedIn</a></li>
                 <li><a className="hover:text-[color:var(--color-gold-300)]" href="#">GitHub</a></li>

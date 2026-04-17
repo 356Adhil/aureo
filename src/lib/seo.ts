@@ -5,9 +5,9 @@ export const siteConfig = {
   tagline: "We craft digital experiences that feel refined.",
   description:
     "Aureo is a modern digital agency building bold brands and immersive products. Digital marketing, graphic design, video editing, web, software and app development — all in one place.",
-  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://aureo.studio",
+  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://aureodigital.in",
   ogImage: "/opengraph-image",
-  twitter: "@aureostudio",
+  twitter: "@aureodigital",
 };
 
 export function createMetadata(input: {

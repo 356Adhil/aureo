@@ -76,11 +76,11 @@ export function FounderNote() {
                   Read the full letter <span aria-hidden>→</span>
                 </Link>
                 <a
-                  href="mailto:hello@aureo.studio"
+                  href="mailto:hello@aureodigital.in"
                   data-cursor="hover"
                   className="font-mono text-xs uppercase tracking-[0.3em] text-[color:var(--color-gold-300)] transition-colors hover:text-[color:var(--color-gold-200)]"
                 >
-                  hello@aureo.studio
+                  hello@aureodigital.in
                 </a>
               </div>
             </Reveal>
