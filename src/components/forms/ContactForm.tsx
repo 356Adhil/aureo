@@ -28,7 +28,7 @@ const SERVICE_OPTIONS = [
   "App development",
 ];
 
-const BUDGETS = ["< $5k", "$5k–$15k", "$15k–$50k", "$50k+"];
+const BUDGETS = ["< ₹5k", "₹5k–₹15k", "₹15k–₹50k", "₹50k+"];
 
 export function ContactForm() {
   const [state, setState] = useState<"idle" | "sending" | "success" | "error">(

@@ -17,7 +17,7 @@ const tiers: Tier[] = [
   {
     name: "Sprint",
     tagline: "A focused intervention.",
-    from: "$6k",
+    from: "₹6k",
     duration: "2–3 weeks",
     ideal: "Landing page, microsite, identity refresh, or a single critical flow.",
     included: [
@@ -31,7 +31,7 @@ const tiers: Tier[] = [
   {
     name: "Project",
     tagline: "A full build, end to end.",
-    from: "$24k",
+    from: "₹24k",
     duration: "6–12 weeks",
     ideal: "Marketing sites, e-commerce, brand systems, product MVPs.",
     included: [
@@ -47,7 +47,7 @@ const tiers: Tier[] = [
   {
     name: "Partnership",
     tagline: "We become your design + eng team.",
-    from: "$14k / mo",
+    from: "₹14k / mo",
     duration: "3-month minimum",
     ideal: "Scaling brands that need continuous craft — product, marketing, content.",
     included: [
