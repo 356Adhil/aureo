@@ -1,3 +1,64 @@
+# Aureo
+
+An immersive, animation-rich marketing site for **Aureo** — a modern digital studio covering marketing, design, video, web, software and app development.
+
+## Stack
+
+- **Next.js 16** (App Router) + **TypeScript**
+- **Tailwind CSS v4** (theme tokens in `src/app/globals.css`)
+- **GSAP + ScrollTrigger** for scroll-pinned scenes
+- **Lenis** for smooth scroll
+- **Framer Motion** for in-view / gesture animations
+- **React Three Fiber + drei** for the 3D hero
+- **React Hook Form + Zod** for the contact form
+- **Resend** for transactional email
+- **Plausible** for analytics (optional)
+
+## Getting started
+
+```bash
+pnpm install
+cp .env.example .env.local   # fill in Resend / Plausible as needed
+pnpm dev
+```
+
+Open <http://localhost:3000>.
+
+## Scripts
+
+```bash
+pnpm dev      # dev server
+pnpm build    # production build
+pnpm start    # run production build
+pnpm lint     # eslint
+```
+
+## Structure
+
+```
+src/
+  app/                  App Router routes
+  app/api/contact/      POST handler that sends mail via Resend
+  components/
+    layout/             Header, Footer
+    providers/          LenisProvider, CustomCursor, PageTransition, Noise
+    motion/             Reveal, SplitText, Magnetic, MarqueeRow
+    sections/home/      Home page sections
+    three/              React Three Fiber scenes
+    ui/                 Button, SectionHeader, Tag, GridLines
+    forms/              ContactForm
+  lib/                  Content data + helpers
+```
+
+## Deployment
+
+Designed for **Vercel**. Push to a Git repo, connect on Vercel, add the env vars from `.env.example`, and deploy.
+
+## Notes
+
+- The studio is new, so `/work` is populated with concept placeholders — replace `src/lib/work.ts` as real case studies ship.
+- `next/font` loads **Inter**, **Space Grotesk** and **JetBrains Mono** — no external font requests.
+- The 3D hero is lazy-loaded with `next/dynamic({ ssr:false })`.
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
