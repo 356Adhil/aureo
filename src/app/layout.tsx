@@ -18,6 +18,7 @@ import { ScrollRail } from "@/components/layout/ScrollRail";
 import { AuroraBackdrop } from "@/components/three/AuroraBackdropClient";
 import { createMetadata } from "@/lib/seo";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import { Analytics } from "@vercel/analytics/next";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -68,6 +69,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
           <Footer />
         </LenisProvider>
         <SpeedInsights />
+        <Analytics />
 
         {plausibleDomain && (
           <Script
