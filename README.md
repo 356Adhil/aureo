@@ -59,7 +59,7 @@ Designed for **Vercel**. Push to a Git repo, connect on Vercel, add the env vars
 - The studio is new, so `/work` is populated with concept placeholders — replace `src/lib/work.ts` as real case studies ship.
 - `next/font` loads **Inter**, **Space Grotesk** and **JetBrains Mono** — no external font requests.
 - The 3D hero is lazy-loaded with `next/dynamic({ ssr:false })`.
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+  This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
 
